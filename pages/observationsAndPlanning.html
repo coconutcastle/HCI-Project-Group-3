@@ -11,15 +11,15 @@
             font-size: 20px;
             padding: 1rem;
         }
-
-        #pageTitle{
+        .pageTitle{
             font-size: 3rem;
             padding: 1rem;
             /*margin: 3rem;*/
         }
-        #fileContent{
-            font-family: "Courier New";
-            font-size: 1rem;
+        .headerText{
+            font-size: 2rem;
+            padding: 1rem;
+            /*margin: 3rem;*/
         }
         .text{
             font-family: Bahnschrift light;
@@ -44,44 +44,13 @@
             font-size: 1.1rem;
             margin-left: 1.2rem;
         }
-        #aFile {
-            position: absolute;
-            z-index: 1000;
-            opacity: 0;
-            /*cursor: pointer;*/
-            right: 0;
-            top: 0;
-            height: 100%;
-            font-size: 1.1rem;
-            width: 100%;
-            margin-left: 1.2rem;
-        }
-        #convertFile{
-            background-color: #277496;
-            border: none;
-            color: white;
-            padding: 0.4rem 0.8rem;
-            border-radius:3px;
-            text-align: center;
-            font-size: 1.1rem;
-            font-family: Bahnschrift;
-            margin-left: 1.2rem;
-        }
-        #fileContent{
-            margin-left: 1rem;
-        }
     </style>
 </head>
 
 <body onload = "init()">
 
 <div id = "pageTitle">ECSE 424 HCI Term Project - Group 3</div>
-<div id = "pageTitle">Observations and Planning</div>
-<ol class="list">
-    <li>Open the raw data link and save the whole page as a text file (*.txt extension)</li>
-    <li>Upload here and click <i>convert</i></li>
-</ol>
-<div class = "text">Now you'll be able to open the data in Excel, Google Sheets, and any other program that can open CSV files!</div>
+<div class = "headerText">Observations and Planning</div>
 <br>
 </body>
 </html>
