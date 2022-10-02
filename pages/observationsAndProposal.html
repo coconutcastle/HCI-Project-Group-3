@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ECSE 424 Group 3</title>
+    <link rel="icon" href="../images/NoteBookEmoji.png">
+    <style>
+        body {
+            background-color: white;
+            font-family: Bahnschrift;
+            font-size: 20px;
+            padding: 1rem;
+        }
+
+        #pageTitle {
+            font-size: 3rem;
+            padding: 1rem;
+            /*margin: 3rem;*/
+        }
+
+        .headerText {
+            font-size: 2rem;
+            padding: 1rem;
+            /*margin: 3rem;*/
+        }
+
+        .text {
+            font-family: Bahnschrift light;
+            font-size: 1rem;
+            padding: 1rem;
+            padding-top: 0;
+        }
+
+        ul.list {
+            font-family: Bahnschrift light;
+            font-size: 1rem;
+            padding: 1rem;
+            margin-left: 2rem;
+        }
+
+        .hide {
+            padding: 0.4rem 0.8rem;
+            background: #277496;
+            position: relative;
+            color: white;
+            border-radius: 3px;
+            text-align: center;
+            float: left;
+            font-size: 1.1rem;
+            margin-left: 1.2rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: grey;
+        }
+
+        td {
+            padding: 0.25rem;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            max-width: 90%;
+            width: auto;
+            height: auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="pageTitle"><a href="../index.html">ECSE 424 HCI Term Project - Group 3</a></div>
+    <div style="width:80%;margin:auto">
+        <div class="headerText">Observations and Proposal</div>
+        <div class="text">
+            <b>
+                Observations
+            </b>
+        </div>
+        <div class="text">
+            Our observations were taken through observing people in the academic advising offices. These included both
+            students and advisors. Some of us had family that were looking to apply for universities, which we
+            incorporated for prospective students.
+            <br><br>
+            Prospective Students
+            <ul>
+                <li>Want to know what courses they will have to take to complete the degree</li>
+                <li>They use the curriculum to compare with other schools</li>
+                <li>Some students (in ECE) will look at different programs within McGill (software coop, comp eng or
+                    electrical eng) to compare if they haven't yet decided on a program</li>
+                <li>Will search the database to see which courses will be eligible for transfer credits</li>
+                <li>Are frustrated with the distribution of information</li>
+            </ul>
+            Current Students
+            <ul>
+                <li>Need to check if they have completed the correct courses</li>
+                <li>Are currently using MS Excel, Notion or pen and paper to track if they have done the proper courses
+                </li>
+                <li>Students in minors have to navigate to different parts of the website to see the requirements for
+                    the minor (can waste time searching for the correct page)</li>
+                <li>Some students will make mistakes (missing pre-req or forget to take a class) which will impact their
+                    graduation timeline</li>
+                <li>May make errors due to looking at the wrong curriculum (one for a different entering year)</li>
+                <li>Are not kept up to date on additional technical complementary courses that are recognized</li>
+            </ul>
+            Academic Advisors/Undergraduate Affairs Staff
+            <ul>
+                <li>Often hold meetings with students simply to repeat info that is on the website</li>
+                <li>Forget to update students on newly accepted credited courses</li>
+                <li>Update info on the website about the requirements for each program</li>
+            </ul>
+        </div>
+        <div class="text">
+            <b>
+                The Problem
+            </b>
+        </div>
+        <div class="text">
+            Many McGill Undergraduate students have lots of questions about their degree program, ranging from whether
+            they are taking the right courses toward graduation to obtaining a minor. A lot of the information is
+            available on the McGill website however it is scattered across department-, faculty-, and university-level
+            websites. Students and academic advisors need a better way of sharing and finding this information.
+            <br><br>
+            <i>
+                Screenshots from the McGill website showing what software engineering students see regarding their
+                curriculae:
+            </i>
+            <img src="../images/problem1.png">
+            <img src="../images/problem2.png">
+            <img src="../images/problem3.png">
+            <img src="../images/problem4.png">
+        </div>
+        <div class="text">
+            <b>
+                Personas
+            </b>
+        </div>
+        <div class="text">
+            Jacob (Prospective Student)
+            <br><br>
+            Basic Information:
+            <ul>
+                <li>17 years old</li>
+                <li>Male</li>
+                <li>Just graduated from high school</li>
+                <li>From Vancouver, BC</li>
+            </ul>
+            Goals:
+            <ul>
+                <li>Wants to study computer engineering</li>
+                <li>Wants to work in the aerospace industry</li>
+                <li>Would like to be a manager one day</li>
+            </ul>
+            Frustrations:
+            <ul>
+                <li>Doesn't know what his options are for minors (particularly in management)</li>
+            </ul>
+            <br><br>
+            Anna (Current Student)
+            <br><br>
+            Basic Information:
+            <ul>
+                <li>22 years old</li>
+                <li>Female</li>
+                <li>In her third year at McGill</li>
+                <li>From Montreal, QC</li>
+                <li>Majoring in software engineering, no minors</li>
+            </ul>
+            Goals:
+            <ul>
+                <li>Looking to finish her degree next May (2024)</li>
+                <li>Wants to ensure she has done the correct course work</li>
+                <li>Would like to move to NYC to work in fintech</li>
+            </ul>
+            Frustrations:
+            <ul>
+                <li>Has already has to take discrete math for a second time despite having done it in CEGEP because she
+                    was not updated on it's status</li>
+            </ul>
+            <br><br>
+            John (Academic Advisor)
+            <br><br>
+            Basic Information:
+            <ul>
+                <li>33 years old</li>
+                <li>Male</li>
+                <li>Graduated with a degree in Management from McGill in 2008</li>
+                <li>From Montreal, QC</li>
+                <li>Is a general academic advisor</li>
+                <li>Married and has two young children</li>
+            </ul>
+            Goals:
+            <ul>
+                <li>Support his family</li>
+                <li>Buy a new house within the next 5 years</li>
+                <li>Perform well at work and get a raise</li>
+            </ul>
+            Frustrations:
+            <ul>
+                <li>So many students come to him for small questions that they could probably find themselves</li>
+                <li>It's embarrassing when sometimes he can't answer the questions students come to him for, and when
+                    the students seem to know more than he does</li>
+            </ul>
+        </div>
+        <div class="text">
+            <b>
+                Use Case Scenarios
+            </b>
+        </div>
+        <div class="text">
+            The Proposed System:
+            <br><br>
+            An interactive web platform that can help students in the department of ECSE better navigate the information
+            they need. Students looking to assess their progress towards obtaining their degree (ensuring they have
+            taken the right courses and enough credits) or simply looking for additional information regarding their
+            options for complementary courses will be interacting with the web platform.
+            <br><br>
+            Actor: Anna (Persona 2)
+            <br><br>
+            Intention:
+            <br><br>
+            Anna is planning to graduate next year but has started to become anxious over whether she has taken all the
+            required courses. Having already made plans for what to do after graduating, she desperately does not want
+            to have some missing or incorrect courses throwing everything into disarray with another semester. A search
+            online has revealed the McGill Course Tracker website, which should allow her to input all her data and keep
+            track of everything. Anna hopes that this will help her review all her courses and better plan her schedules
+            in the coming semesters.
+            <br><br>
+            Main Scenario:
+            <ol>
+                <li>
+                    Anna opens the link to the home page and clicks the “Create an Account” button to start using the
+                    platform.
+                </li>
+                <li>
+                    Anna signs in with her email and creates a password.
+                </li>
+                <li>
+                    On the next page, Anna selects her major, her year, starting year, expected graduation date, and
+                    leaves the minor option blank.
+                </li>
+                <li>
+                    After her profile and details have been set, Anna confirms them and moves on to the next page, where
+                    she enters all the courses she has taken so far, their semester, and her grade for the ones that
+                    have been completed.
+                </li>
+                <li>
+                    Upon confirming all these changes, the page shows her per-semester and cumulative GPA, total credits
+                    completed, a list of courses that need to be retaken, and remaining required courses and credits.
+                </li>
+                <li>
+                    Anna clicks on her profile icon and selects the “Sign Out” option to exit the page, feeling
+                    significantly more settled knowing that she is on the right track.
+                </li>
+            </ol>
+        </div>
+        <div class="text">
+            <b>Comparison of Products</b>
+            <br><br>
+            <a href="https://students.wlu.ca/academics/support-and-advising/academic-advising/mydegree.html">MyDegree by
+                WLU</a>
+            <br><br>
+            MyDegree is an interactive web-platform that allows students to track the courses they’ve taken against
+            their program requirements. The platform determines how selected future courses will be used towards
+            completing their degree requirements. It explores how the completed and future coursework could be applied
+            towards another program at the university. It is not a registration tool.
+            <br><br>
+            <a href="https://myacademicrecord.students.yorku.ca/degree-progress-report">Degree Procress by York</a>
+            <br><br>
+            The Degree Progress Report is a generated pdf that checks the requirements that are needed towards
+            graduation in a degree program. Based on this automated review, it shows what requirements have already been
+            completed, what requirements still need to be completed and what is currently in progress.
+            <br><br>
+            Why is our platform better?
+            <br><br>
+            The existing platforms are specific to each university. There is nothing out there at the moment that
+            satisfies the needs of the current student population at McGill in ECSE. Our platform would allow for
+            significant improvement on the current process for students to acquire important information regarding
+            curriculums and available courses in addition to being able to track their degree progress. Students will be
+            able to stay up to date with changes made to course delivery and curriculums over the years. Our platform
+            will have the flexibility of being interactive so it will not simply be a webpage with information. Each
+            student will be able to update their profile as they complete courses and degree requirements. Finally, the
+            platform will also have a public element to it, allowing students interested in attending McGill to have a
+            deeper understanding of the curriculum, course offerings and degree options (minors + complementary courses)
+            which will be very valuable to them.
+            <br><br>
+            <table>
+                <tr>
+                    <td></td>
+                    <td>Interactive</td>
+                    <td>Track Courses</td>
+                    <td>Programs Comparison</td>
+                </tr>
+                <tr>
+                    <td>McGill</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td>WLU</td>
+                    <td>X</td>
+                    <td>X</td>
+                    <td>X</td>
+                </tr>
+                <td>York</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <tr>
+
+                </tr>
+            </table>
+        </div>
+        <div class="text">
+            <b>High Level Design</b>
+            <img src="../images/softwareArchitecture.png" alt="Software Architecture">
+            <br>
+        </div>
+        <div class="text">
+            <b>Feasibility</b>
+            <br><br>
+            We are all U4 software engineering students with web development experience. Several classes of our
+            curriculum required us to build a web platform and taught us agile development techniques. Annabelle just
+            finished a 4-month internship as a full-stack web developer during which she gained database and management
+            skills. Cecile has experience with data requests, web scraping, processing and spent her summer working as a
+            full-stack developer. Victoria completed several internships as a software engineering intern. She has
+            experience in project management work and is qualified to develop either frontend or backend. Based on the
+            experiences and the skills of the team, we strongly believe that we can achieve this project in one
+            semester. We expect the development of the backend and frontend to take approximately 30 hours of work, and
+            testing, both for the system and user, to take around 15. Prototyping and design is expected to take around
+            20 hours.
+        </div>
+    </div>
+</body>
+
+</html>

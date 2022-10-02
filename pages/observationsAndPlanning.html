@@ -1,165 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>ECSE 424 Group 3</title>
-    <link rel="icon" href="NoteBookEmoji.png">
+    <link rel="icon" href="../images/NoteBookEmoji.png">
     <style>
-        body{
+        body {
             background-color: white;
             font-family: Bahnschrift;
             font-size: 20px;
             padding: 1rem;
         }
-        #pageTitle{
+
+        #pageTitle {
             font-size: 3rem;
             padding: 1rem;
             /*margin: 3rem;*/
         }
-        .headerText{
+
+        .headerText {
             font-size: 2rem;
             padding: 1rem;
             /*margin: 3rem;*/
         }
-        .text{
+
+        .text {
             font-family: Bahnschrift light;
             font-size: 1rem;
             padding: 1rem;
             padding-top: 0;
         }
-        ul.list{
+
+        ul.list {
             font-family: Bahnschrift light;
             font-size: 1rem;
             padding: 1rem;
             margin-left: 2rem;
         }
-        .hide{
+
+        .hide {
             padding: 0.4rem 0.8rem;
-            background:#277496;
-            position:relative;
+            background: #277496;
+            position: relative;
             color: white;
-            border-radius:3px;
-            text-align:center;
-            float:left;
+            border-radius: 3px;
+            text-align: center;
+            float: left;
             font-size: 1.1rem;
             margin-left: 1.2rem;
         }
-        a{
+
+        a {
             text-decoration: none;
             color: black;
         }
-        a:hover{
+
+        a:hover {
             color: grey;
         }
     </style>
 </head>
 
 <body>
-<div id = "pageTitle"><a href = "../index.html">ECSE 424 HCI Term Project - Group 3</a></div>
-<div class = "headerText">Observations and Planning</div>
-<div class="text">
-    <b>
-        Observations
-    </b>
-</div>
-<div class="text">
-    <i>
-        Observe several users carrying out the activity you've chosen to focus on for your project. Describe your observations of these users as they carried out the specific activity.
-    </i>    
-</div>
-<div class="text">
-    Prospective Students
-    <ul>
-        <li>Want to know what courses they will have to take to complete the degree</li>
-        <li>They use the curriculum to compare with other schools</li>
-        <li>Some students (in ECE) will look at different programs within McGill (software coop, comp eng or electrical eng) to compare if they haven't yet decided on a program</li>
-        <li>Will search the database to see which courses will be eligible for transfer credits</li>
-        <li>Are frustrated with the distribution of information</li>
-    </ul>
-    Current Students
-    <ul>
-        <li>Need to check if they have completed the correct courses</li>
-        <li>Are currently using MS Excel, Notion or pen and paper to track if they have done the proper courses</li>
-        <li>Students in minors have to navigate to different parts of the website to see the requirements for the minor (can waste time searching for the correct page)</li>
-        <li>Some students will make mistakes (missing pre-req or forget to take a class) which will impact their graduation timeline</li>
-        <li>May make errors due to looking at the wrong curriculum (one for a different entering year)</li>
-        <li>Are not kept up to date on additional technical complementary courses that are recognized</li>
-    </ul>
-    Academic Advisors/Undergraduate Affairs Staff
-    <ul>
-        <li>Often hold meetings with students simply to repeat info that is on the website</li>
-        <li>Forget to update students on newly accepted credited courses</li>
-        <li>Update info on the website about the requirements for each program</li>
-    </ul>
-</div>
-<div class="text">
-    <b>
-        The Problem
-    </b>
-</div>
-<div class="text">
-    <i>
-        Describe the interaction problem you observed or the opportunity for improved design that arises from your observations. Provide supporting material, e.g., brief and small file size video clips, photographs, or illustrations that demonstrate the interaction problem or an opportunity for improved design
-    </i>
-</div>
-<div class="text">
-    Many McGill Undergraduate students have lots of questions about their degree program, ranging from whether they are taking the right courses toward graduation to obtaining a minor. A lot of the information is available on the McGill website however it is scattered across department-, faculty-, and university-level websites. Students and academic advisors need a better way of sharing and finding this information.
-</div>
-<div class="text">
-    <b>
-        Personas
-    </b>
-</div>
-<div class="text">
-    <i>
-        Based on your observations, formulate one or more personas (or "audience segments") that describe the different types of people who will benefit from the project you are proposing. Include the intermediate results of your work in transforming your observations into personas
-    </i>
-</div>
-<div class="text">
-    Jacob (Prospective Student)
-    <ul>
-        
-    </ul>
-    Anna (Current Student)
-    <ul>
+    <div id="pageTitle"><a href="../index.html">ECSE 424 HCI Term Project - Group 3</a></div>
+    <div style="width:80%;margin:auto">
+        <div class="headerText">Observations and Planning</div>
+        <div class="text">
+            <b>
+                Observations
+            </b>
+        </div>
+        <div class="text">
+            <i>
+                Observe several users carrying out the activity you've chosen to focus on for your project. Describe
+                your observations of these users as they carried out the specific activity.
+            </i>
+        </div>
+        <div class="text">
+            Prospective Students
+            <ul>
+                <li>Want to know what courses they will have to take to complete the degree</li>
+                <li>They use the curriculum to compare with other schools</li>
+                <li>Some students (in ECE) will look at different programs within McGill (software coop, comp eng or
+                    electrical eng) to compare if they haven't yet decided on a program</li>
+                <li>Will search the database to see which courses will be eligible for transfer credits</li>
+                <li>Are frustrated with the distribution of information</li>
+            </ul>
+            Current Students
+            <ul>
+                <li>Need to check if they have completed the correct courses</li>
+                <li>Are currently using MS Excel, Notion or pen and paper to track if they have done the proper courses
+                </li>
+                <li>Students in minors have to navigate to different parts of the website to see the requirements for
+                    the minor (can waste time searching for the correct page)</li>
+                <li>Some students will make mistakes (missing pre-req or forget to take a class) which will impact their
+                    graduation timeline</li>
+                <li>May make errors due to looking at the wrong curriculum (one for a different entering year)</li>
+                <li>Are not kept up to date on additional technical complementary courses that are recognized</li>
+            </ul>
+            Academic Advisors/Undergraduate Affairs Staff
+            <ul>
+                <li>Often hold meetings with students simply to repeat info that is on the website</li>
+                <li>Forget to update students on newly accepted credited courses</li>
+                <li>Update info on the website about the requirements for each program</li>
+            </ul>
+        </div>
+        <div class="text">
+            <b>
+                The Problem
+            </b>
+        </div>
+        <div class="text">
+            <i>
+                Describe the interaction problem you observed or the opportunity for improved design that arises from
+                your observations. Provide supporting material, e.g., brief and small file size video clips,
+                photographs, or illustrations that demonstrate the interaction problem or an opportunity for improved
+                design
+            </i>
+        </div>
+        <div class="text">
+            Many McGill Undergraduate students have lots of questions about their degree program, ranging from whether
+            they are taking the right courses toward graduation to obtaining a minor. A lot of the information is
+            available on the McGill website however it is scattered across department-, faculty-, and university-level
+            websites. Students and academic advisors need a better way of sharing and finding this information.
+        </div>
+        <div class="text">
+            <b>
+                Personas
+            </b>
+        </div>
+        <div class="text">
+            <i>
+                Based on your observations, formulate one or more personas (or "audience segments") that describe the
+                different types of people who will benefit from the project you are proposing. Include the intermediate
+                results of your work in transforming your observations into personas
+            </i>
+        </div>
+        <div class="text">
+            Jacob (Prospective Student)
+            <ul>
 
-    </ul>
-    John (Academic Advisor)
-    <ul>
+            </ul>
+            Anna (Current Student)
+            <ul>
 
-    </ul>
-</div>
-<div class="text">
-    <b>
-        Use Case Scenarios
-    </b>
-</div>
-<div class="text">
-    <i>
-        The scenario should describe the important user actions and system reactions (the expected interaction) in reasonable detail, and convincingly demonstrate the use of the proposed system to address the user's need.
-    </i>
-</div>
-<div class="text">
-    <ul>
-        <li>
-            The proposed system: An interactive web platform that can help students in the department of ECSE better navigate the information they need.
-        </li>
-        <li>
-            Students looking to assess their progress towards obtaining their degree (ensuring they have taken the right courses and enough credits) or simply looking for additional information regarding their options for complementary courses will be interacting with the web platform.
-        </li>
-    </ul>
-</div>
-<div class="text">
-    <b>... for the complete deliverable...</b>
-</div>
-<div class="text">
-    <b>Comparison of Products</b>
-</div>
-<div class="text">
-    <b>High Level Design</b>
-</div>
-<div class="text">
-    <b>Feasibility</b>
-</div>
+            </ul>
+            John (Academic Advisor)
+            <ul>
+
+            </ul>
+        </div>
+        <div class="text">
+            <b>
+                Use Case Scenarios
+            </b>
+        </div>
+        <div class="text">
+            <i>
+                The scenario should describe the important user actions and system reactions (the expected interaction)
+                in reasonable detail, and convincingly demonstrate the use of the proposed system to address the user's
+                need.
+            </i>
+        </div>
+        <div class="text">
+            <ul>
+                <li>
+                    The proposed system: An interactive web platform that can help students in the department of ECSE
+                    better navigate the information they need.
+                </li>
+                <li>
+                    Students looking to assess their progress towards obtaining their degree (ensuring they have taken
+                    the right courses and enough credits) or simply looking for additional information regarding their
+                    options for complementary courses will be interacting with the web platform.
+                </li>
+            </ul>
+        </div>
+        <div class="text">
+            <b>... for the complete deliverable...</b>
+        </div>
+        <div class="text">
+            <b>Comparison of Products</b>
+        </div>
+        <div class="text">
+            <b>High Level Design</b>
+        </div>
+        <div class="text">
+            <b>Feasibility</b>
+        </div>
+    </div>
 </body>
+
 </html>
