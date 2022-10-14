@@ -25,6 +25,11 @@
             /*margin: 3rem;*/
         }
 
+        .header2Text {
+            font-size: 1.75rem;
+            padding: 1rem;
+        }
+
         .text {
             font-family: Bahnschrift light;
             font-size: 1rem;
@@ -99,58 +104,142 @@
     <div id="pageTitle"><a href="../index.html">ECSE 424 HCI Term Project - Group 3</a></div>
     <div style="width:80%;margin:auto">
         <div class="headerText">Project Test Plan</div>
+        <div class="header2Text">Initialization</div>
         <div class="text">
             <b>
                 Goals
             </b>
         </div>
         <div class="text">
-            <ul>
-                <li>
-                    Visualize their course progression throughout their degree
-                </li>
-                <li>
-                    Find information about possible minors
-                </li>
-                <li>
-                    Identify which complementary courses are available (updated over time)
-                </li>
-                <li>
-                    Compare programs and curriculums
-                </li>
-                <li>
-                    Quickly access all degree course information with only a few clicks
-                </li>
-            </ul>
+            <ol>
+                <li>The user should be able to visualize their course progression throughout their degree.</li>
+                <li>The user should be able to find information about possible minors.</li>
+                <li>The user should be able to identify which complementary courses are available.</li>
+                <li>The user should be able to access all degree course information with only a few clicks</li>
+                <li>The user should be able to login and logout from their account.</li>
+                <li>The user should be able to access curriculum information without an account.</li>
+                <li>The user should be able to update their degree with minors.</li>
+                <li>The user should engage with the application with ease.</li>
+                <li>The user should be able to identify which courses are left to complete.</li>
+                <li>The user should be able to keep their profile up to date with courses completed, and complementaries
+                    selected.</li>
+            </ol>
         </div>
         <div class="text">
             <b>
                 Benchmark Tests
             </b>
-            <ul>
-                <li>
-                    The user can access their degree progression within 30 seconds.
-                </li>
-                <li>
-                    The user can find information about any possible minors for ECSE students within 1 minute.
-                </li>
-                <li>
-                    The user can access their updated complementary courses list within 30 seconds.
-                </li>
-                <li>
-                    The user should be able to compare programs and curriculums within 1.5 minutes.
-                </li>
-                <li>
-                    The platform is structured for the user to quickly access all ECSE degree course information with
-                    only a few clicks
-                </li>
-            </ul>
+            <br><br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">User tasks</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Related goal(s)</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">Create an account, log in and log out.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">5</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">View McGill ECSE curricula</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">2, 4, 6</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">Add a minor to their degree</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">2, 7</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">Identify how many credits are left to complete in their
+                                    degree</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">1, 8</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">Mark courses as completed</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">8, 9, 11</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">Select a complementary course</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">3, 8, 10</span></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="header2Text">Sketches</div>
+        <div class="text">
+            For sketching, our group followed the 10 plus 10 method and came up with 10 initial designs. From these
+            designs, we selected those that were most representative of our goals and displayed the most variety. We
+            then repeated the process for a second iteration, taking our reduced set of designs and further elaborating
+            and producing variations for each of them. Finally, we reduced our design set again, picking out those that
+            we would ultimately use for our prototypes.
+            <br><br>
+            Link to Google Drive folder containing 10 selected sketches from the second iteration: <a
+                href='https://drive.google.com/drive/folders/160UA_jYTvcsR48Q2HJH_ychBRIbYvjpQ?usp=sharing'>Sketches</a>
+        </div>
+        <div class="header2Text">Prototypes</div>
+        <div class="text">
+            We created two low-fidelity prototypes based on the following sketch.
+            <br><br>
+            <img src="../images/4.png">
+            Most of our website follows a basic structure, and does not vary much. The shared components include the
+            landing page, the viewing of McGill ECSE Curricula page, the sidebars and the pop-ups for selecting a minor
+            and for selecting complementary courses. The focus of our project is the degree visualizer, which is where
+            users can view and analyze their degree progression. There were several ways in which we envisioned doing
+            this that are explored in the two prototypes.
+            <br><br>
+            <b>Prototype 1</b>
+            <br><br>
+            In this prototype, the main functionality of the website is expressed in a degree visualizer where the user
+            can enter and view their completed courses, and what they have still yet to do in a list. This is useful for
+            cumulative course displays. By clicking buttons on the sidebar menu, the user can access this visualizer, as
+            well as other information such as curriculum, available complementaries. They can also manage their minors.
+            <br><br>
+            Link to images: <a
+                href="https://drive.google.com/drive/folders/1zJianpl8jG15EGiu_r-8CKU5mOlawbek?usp=sharing">Prototype
+                1</a>
+            <br><br>
+            <b>Prototype 2</b>
+            <br><br>
+            Our second prototype is very similar to the first, except for a different course visualizer. In this
+            version, users access their completed and to be done course information in a semester-wise calendar. This
+            visualizer may be preferable if users want to be able to more easily see when these courses took place. Like
+            before, users can access other functions through the sidebar.
+            <br><br>
+            Link to images: <a
+                href="https://drive.google.com/drive/folders/1O-U0H-zM1ahfqQcwLnlfpvqZEWv_aFc9?usp=sharing">Prototype
+                2</a>
+        </div>
+        <div class="header2Text">
+            Test Materials
         </div>
         <div class="text">
-            <b>
-                Test Materials
-            </b>
-            <br><br>
             <b>
                 Observer Briefing
             </b>
@@ -250,6 +339,9 @@
                     Create course list
                 </li>
                 <li>
+                    Mark a course as completed
+                </li>
+                <li>
                     Use the website to calculate the number of credits towards completion
                 </li>
                 <li>
@@ -283,7 +375,7 @@
                     <col style="width:30%">
                     <col style="width:5%">
                     <col style="width:30%">
-                  </colgroup>  
+                </colgroup>
                 <tbody>
                     <tr>
                         <td>
@@ -302,7 +394,7 @@
                             <p><span style="font-weight: 400;">Time</span></p>
                         </td>
                         <td>
-                            <p><span style="font-weight: 400;">Comments</span></p>
+                            <p><span style="font-weight: 400;">Additional Comments</span></p>
                         </td>
                     </tr>
                     <tr>
@@ -374,6 +466,22 @@
                             <p><span style="font-weight: 400;">5</span></p>
                         </td>
                         <td>
+                            <p><span style="font-weight: 400;">Mark a course as completed.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Homepage</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">10 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">6</span></p>
+                        </td>
+                        <td>
                             <p><span style="font-weight: 400;">Use the website to calculate the number of credits
                                     towards completion.</span></p>
                         </td>
@@ -388,7 +496,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <p><span style="font-weight: 400;">6</span></p>
+                            <p><span style="font-weight: 400;">7</span></p>
                         </td>
                         <td>
                             <p><span style="font-weight: 400;">Use the website to check unfulfilled course
@@ -405,7 +513,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <p><span style="font-weight: 400;">7</span></p>
+                            <p><span style="font-weight: 400;">8</span></p>
                         </td>
                         <td>
                             <p><span style="font-weight: 400;">Save the instance of the course list they just
@@ -422,7 +530,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <p><span style="font-weight: 400;">8</span></p>
+                            <p><span style="font-weight: 400;">9</span></p>
                         </td>
                         <td>
                             <p><span style="font-weight: 400;">Open a saved course list.</span></p>
@@ -438,7 +546,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <p><span style="font-weight: 400;">9</span></p>
+                            <p><span style="font-weight: 400;">10</span></p>
                         </td>
                         <td>
                             <p><span style="font-weight: 400;">Edit a saved course list.</span></p>
@@ -455,10 +563,13 @@
                 </tbody>
             </table>
             <p>&nbsp;</p>
-            <br><br><br>
+            <br><br>
             <b>
                 Post-Test Questionnaire
             </b>
+            <br><br>
+            The following form is used to collect information on the user's experience and thoughts through the test
+            session. This will give us valuable feedback that better allows us to improve our model.
             <br><br>
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLScTM4knFBLiBBiVA8To0-TIL7jYFCHs2fhq6e3jTCc6cpzzPg/viewform?embedded=true"
@@ -587,7 +698,12 @@
             website once everything has been completed. Have a good rest of your day!
             <br><br><br>
             END SCRIPT
-            <br><br><br><br>
+            <br><br>
+        </div>
+        <div class="header2Text">
+            Test Results
+        </div>
+        <div class="text">
             <b>
                 Study Details
             </b>
@@ -603,11 +719,323 @@
             Participants could encounter misinformation and confusion throughout the study. If the information found on
             the platform isn't accurate, it could lead to a conflict with the participant's graduation. These risks can
             be mitigated by a user-friendly interface and recent academic data.
-            <br><br><br>
+            <br><br>
             <b>
-                Contributions Summary
+                Test User Videos
             </b>
             <br><br>
+            Link to Google Drive folder containing the videos: <a
+                href="https://drive.google.com/drive/folders/1XpvgV74DTy8yNIh5hwi99Oe1W5Wvjmxe?usp=sharing">User Test
+                Videos</a>
+            <b>
+                Summary
+            </b>
+            <br><br>
+            <table>
+                <colgroup>
+                    <col style="width:5%">
+                    <col style="width:20%">
+                    <col style="width:10%">
+                    <col style="width:30%">
+                    <col style="width:5%">
+                    <col style="width:30%">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">Task #</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Description</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Start</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Result</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Time</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Additional Comments</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">1</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Create an account.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Landing page</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong><span style="font-weight: 400;"> Users quickly found the
+                                    correct buttons. Proceeded smoothly.</span></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong><span style="font-weight: 400;"> Users quickly found the
+                                    correct buttons. Proceeded smoothly.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">2 min</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">2</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Log out of account.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Homepage</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong><span style="font-weight: 400;"> Quickly achieved by
+                                    clicking the correct button.</span></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong><span style="font-weight: 400;"> One user took longer due to
+                                    searching the side menu first. Proceeded smoothly for the others.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">15 s</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">3</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Login to an existing account.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Landing page</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong><span style="font-weight: 400;"> Quickly achieved and
+                                    proceeded smoothly.</span></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong><span style="font-weight: 400;"> Quickly achieved and
+                                    proceeded smoothly.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">1 min</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">4</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Input courses.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Homepage</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong><span style="font-weight: 400;"> Successfully input an array
+                                    of courses.</span></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong><span style="font-weight: 400;"> Successfully input an array
+                                    of courses, but one went over the time limit.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">5 mins</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong><span style="font-weight: 400;"> Users weren&rsquo;t sure
+                                    what courses to input. One input their current courses, and another input a random
+                                    selection.</span></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong><span style="font-weight: 400;"> One user took a long time
+                                    due to trying to input every course they had taken over their time at school. Others
+                                    only used current courses.</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">5</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Mark a course as completed</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Homepage</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong><span style="font-weight: 400;"> Successfully marked.</span>
+                            </p>
+                            <br />
+                            <p><strong>Prototype 2:</strong><span style="font-weight: 400;"> Successfully marked.</span>
+                            </p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">10 s</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">6</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Use the website to calculate the number of credits
+                                    towards completion.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong><span style="font-weight: 400;"> Quickly achieved by finding
+                                    and clicking the displayed button.</span></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong><span style="font-weight: 400;"> Quickly achieved by finding
+                                    and clicking the displayed button.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">15 s</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">7</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Use the website to check unfulfilled course
+                                    requirements.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong><span style="font-weight: 400;"> Quickly achieved by finding
+                                    and clicking the displayed button.</span></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong><span style="font-weight: 400;"> Quickly achieved by finding
+                                    and clicking the displayed button.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">15 s</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">8</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Save the instance of the course list they just
+                                    created.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong><span style="font-weight: 400;"> Quickly achieved by finding
+                                    and clicking the displayed button.</span></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong><span style="font-weight: 400;"> Quickly achieved by finding
+                                    and clicking the displayed button.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">10 s</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">9</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Open a saved course list.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Landing page</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong> <span style="font-weight: 400;">Quickly achieved by
+                                    navigating the menu.</span></p>
+                            <br />
+                            <p><strong>Prototype 2: </strong><span style="font-weight: 400;">Quickly achieved by
+                                    navigating the menu.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">30 s</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">10</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Edit a saved course list.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1</strong><span style="font-weight: 400;">: Achieved by clicking on the
+                                    course inputs, editing them, and then clicking the save button again, but this step
+                                    was forgotten by one user.</span></p>
+                            <br />
+                            <p><strong>Prototype 2: </strong><span style="font-weight: 400;">Achieved by clicking on the
+                                    course inputs, editing them, and then clicking the save button again.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">1 min</span></p>
+                        </td>
+                        <td>
+                            <p><strong>Prototype 1:</strong></p>
+                            <br />
+                            <p><strong>Prototype 2:</strong></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="header2Text">
+            Contributions Summary
+        </div>
+        <div class="text">
             Annabelle Dion
             <ul>
                 <li>
@@ -632,7 +1060,8 @@
                     Benchmark tasks
                 </li>
             </ul>
-            Challenge faced during the deliverable: No challenge was faced
+            Challenge faced during the deliverable: We had very a very limited amount of time to work on this
+            deliverable as it was due right after a holiday and in the midst of midterm and assignment season.
             <br><br>
             Signatures: Cecile, Annabelle, Victoria
         </div>
