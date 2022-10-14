@@ -78,6 +78,20 @@
             border-radius: 10px;
             padding: 0.25rem
         }
+
+        table {
+            border: 2px solid black;
+            width: 90%;
+            text-align: left;
+        }
+
+        th,
+        td {
+            border: 2px solid black;
+            padding: 15px;
+            text-align: left;
+            width: auto;
+        }
     </style>
 </head>
 
@@ -262,16 +276,185 @@
             necessary.
             <br><br>
             <table>
-                <tr>
-                    <td></td>
-                    <td>Task #</td>
-                    <td>Start</td>
-                    <td>Description</td>
-                    <td>Result</td>
-                    <td>Time</td>
-                    <td>Comments</td>
-                </tr>
+                <colgroup>
+                    <col style="width:5%">
+                    <col style="width:20%">
+                    <col style="width:10%">
+                    <col style="width:30%">
+                    <col style="width:5%">
+                    <col style="width:30%">
+                  </colgroup>  
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">Task #</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Description</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Start</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Result</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Time</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Comments</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">1</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Create an account.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Landing page</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">2 min</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">2</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Log out of account.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Homepage</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">15 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">3</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Login to an existing account.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Landing page</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">1 min</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">4</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Input courses.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Homepage</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">5 mins</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">5</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Use the website to calculate the number of credits
+                                    towards completion.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">15 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">6</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Use the website to check unfulfilled course
+                                    requirements.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">15 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">7</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Save the instance of the course list they just
+                                    created.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">10 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">8</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Open a saved course list.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Landing page</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">30 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">9</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Edit a saved course list.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">1 min</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </tbody>
             </table>
+            <p>&nbsp;</p>
             <br><br><br>
             <b>
                 Post-Test Questionnaire
@@ -288,9 +471,9 @@
             This document provides the general script to be delivered by you, the observer, to the user over the testing
             process. You do not need to follow this script exactly. Deviate as you deem necessary in order to progress
             through the tasks.
-            <br><br>
+            <br><br><br>
             SCRIPT BEGIN
-            <br><br>
+            <br><br><br>
             Hello! Welcome to the user testing session for the McGill Course Tracker website, meant to help current,
             prospective, and incoming students as well as advisors through course selection and determining degree
             progression. I'll be observing and guiding you through a set of tasks we have set out. You should know that
@@ -402,13 +585,13 @@
             <br><br>
             And that's it! You're done for today. Thank you so much for your time. We'll send you the details of the
             website once everything has been completed. Have a good rest of your day!
-            <br><br>
-            END SCRIPT
             <br><br><br>
+            END SCRIPT
+            <br><br><br><br>
             <b>
                 Study Details
             </b>
-            <br><br><br>
+            <br><br>
             Study description: Investigating whether ECSE students can access any information related to their degree.
             <br><br>
             Participant 1: Female U4 Software Engineering students, Annabelle's friend
