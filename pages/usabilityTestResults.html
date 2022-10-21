@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ECSE 424 Group 3</title>
+    <link rel="icon" href="../images/NoteBookEmoji.png">
+    <link rel="stylesheet" type="text/css" href="../siteStyle.css">
+</head>
+
+<body>
+    <div id="pageTitle"><a href="../index.html">ECSE 424 HCI Term Project - Group 3</a></div>
+    <div style="width:80%;margin:auto">
+        <div class="headerText">Usability Test Results</div>
+        <div class="header2Text">Design Evolution</div>
+        <div class="text">
+            After receiving feedback on our low-fidelity prototype, we have decided to make some significant changes.
+            The first is regarding the scope of our project. We faced difficulty finding test users that were academic
+            advisors,and considering how different the experiences are of students against advisors, this posed a large
+            problem.By carefully considering our original pitch based on the struggles of students, we ultimately
+            decided to remove academic advisors from our target group. We further reduced our scope to only ECSE current
+            and incoming/prospective students based on the extremely varied degree structures across faculties and our
+            group's greater access to engineering students. This narrower focus will allow us to deliver a
+            higher-quality product to a more immediately available user group.
+            <br><br>
+            The following changes were made accordingly.
+            <br><br>
+            <b>Remove accommodation for degrees outside of the ECSE department.</b>
+            <br><br>
+            As part of the project scope reduction.
+            <br><br>
+            <b>Add “ECSE” to the landing page title.</b>
+            <br><br>
+            This makes it obvious to all new users that this tool is for McGill ECSE degrees.
+            <br><br>
+            <b>Add degree options directly to the curricula page.</b>
+            <br><br>
+            This is possible as the degree options have been reduced to those offered by the ECSE department. This will
+            reduce the number of clicks needed to navigate the site.
+            <br><br>
+            <b>Add technical and humanities complementaries and a minor button to the curricula page.</b>
+            <br><br>
+            This will reduce the number of clicks needed to navigate the site.
+            <br><br><br>
+            We have also singled out some design elements unrelated to the scope reduction to modify based on the
+            results of the user testing and updated usability goals (described in the next section).
+            <br><br>
+            <b>Add an “Update” button in the degree visualizer and make it immediately visible.</b>
+            <br><br>
+            Some test users took more time than expected to find how to update their progress, add courses or edit
+            course details. Some tried scrolling to the bottom of the page, and others tried clicking on the relevant
+            sections. To reduce confusion, we decided to add an “Update” button to the top of the degree visualizer so
+            that it is one of the first things the user sees on this page. They then know to click this button in case
+            they want to update their degree information.
+            <br><br>
+            <b>Change the name of the “Add Curricula” button to “View Degree Offerings”.</b>
+            <br><br>
+            This button is meant to allow the user to view and explore all available curricula. However, this name was
+            clearly confusing to some users, many of whom asked what it meant and what it was supposed to do. The new
+            name is more straightforward and directly describes what the button does.
+            <br><br>
+            <b>Add “Degree Visualizer” to the side menu.</b>
+            <br><br>
+            This reduces the number of clicks needed to get to the primary functionality of the site. Previously, the
+            user needed to navigate through the “Profile” button.
+            <br><br>
+            <b>Reduce the amount of hidden functionality in the side menu.</b>
+            <br><br>
+            “Technical Complementaries' ', “Natural Science Complementaries”, “Humanities Complementaries” have been
+            removed from the side menu and moved to the curricula page. When starting on the curricula page, users
+            looked for these sections there first before clicking the side menu. These sections are similar enough in
+            purpose to be bundled together, and it makes more logical sense to have it with the curricula
+            descriptions/course offerings.
+        </div>
+        <div class="header2Text">Usability Goals</div>
+        <div class="text">
+            After check-in with our mentor, we decided to split our usability goals in 3 categories: Discoverability,
+            Maintainability and User Satisfaction. Each goal contains sub-goals that are more technical and linked to
+            the system features. It was also decided to scope down the target user to incoming and current McGill
+            undergraduate ECSE students.
+            <br><br>
+            <b>Discoverability: </b>Upon initial use, users should easily access and use system components and
+            functionalities.
+            <ol>
+                <li>The user should be able to visualize their course progression throughout their degree.</li>
+                <li>The user should be able to find information about possible minors.</li>
+                <li>The user should be able to access all degree course information.</li>
+                <li>The user should be able to login and logout from their account.</li>
+                <li>The user should be able to access curriculum information without an account.</li>
+                <li>The user should be able to update their degree with minors.</li>
+            </ol>
+            <b>Reliability/Maintainability: </b>Information made available to the user should be up-to-date and
+            accurate.
+            <ol start="7">
+                <li>The user should be able to identify which complementary courses are available.</li>
+                <li>The user should be able to identify which courses are left to complete.</li>
+                <li>The user should be able to keep their profile up to date with courses completed, and complementaries
+                    selected.</li>
+            </ol>
+            <b>User Satisfaction: </b>The system should satisfy the user's requirements while being enjoyable and
+            rewarding to use.
+            <ol start="10">
+                <li>The user should engage with the application with ease.</li>
+                <li>The user should express comfort with using the system.</li>
+            </ol>
+        </div>
+        <div class="header2Text">Prototype Implementation</div>
+        <div class="text">
+            Link to our Figma Prototype: <a
+                href="https://www.figma.com/file/TOsK6hRUnkWlSUhLOzWzWq/Prototype?node-id=0%3A1">Prototype</a>
+        </div>
+        <div class="header2Text">
+            Updated Test Materials
+        </div>
+        <div class="text">
+            <b>
+                Observer Briefing
+            </b>
+            <br><br>
+            As an observer for today's user test session, you'll be tasked with recording, analyzing, and potentially
+            helping the user as they navigate the McGill Course Tracker web application prototype according to a series
+            of predefined tasks (see Tasks). You will follow a similar, if not the exact, course as written in the Test
+            Script, and describe to the user their tasks with no more detail than what is given. You may not offer any
+            additional assistance to the user or veer from this script unless it is clear that they are making no
+            progress.
+            <br><br>
+            Please review the Data Collection document, which you will be filling out as you observe the user throughout
+            this activity. There is a data collection document for each observed user. Note down any point which causes
+            them difficulty and anything significant they say over the process. Add as many comments as you think
+            necessary to sufficiently convey what the user has done. Ensure that the user has completed the pre-test
+            questionnaire prior to starting the tasks and that they complete the post-test questionnaire afterwards.
+            <br><br>
+            Good luck!
+            <br><br><br>
+            <b>
+                User Introduction
+            </b>
+            <br><br>
+            You have agreed to be a test user in today's user test session for the McGill Course Tracker, a web
+            application aimed towards McGill students, prospective students, and advisors to help track progress towards
+            degree completion. You will be given a prototype to navigate according to a series of predefined tasks that
+            will be explained to you by an observer with knowledge of how the system works. If you were unaware, please
+            note that this prototype is fully functional, nor are you here to test its functionality. The prototype is
+            meant to represent the user interface of the product, which you will be exploring. You will be recorded
+            throughout the session, which will later be used for analytical purposes.
+            <br><br>
+            Feel free to ask the observer to clarify tasks if you have trouble understanding them, but do your best to
+            refrain from asking questions about the system itself unless you are truly struggling. We encourage you to
+            verbalize your thought process as you go through the prototype, but do not feel required to do so. Do not
+            feel discouraged if you have trouble using the interface, as this exercise is meant to find things that can
+            be improved about it.
+            <br><br>
+            Your input is valuable and we appreciate your time. Thank you, and good luck with the proceedings.
+            <br><br><br>
+            <b>
+                Pre-Test Questionnaire
+            </b>
+            <br><br>
+            Current Student
+            <br><br>
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLScO2rehKklEUC36p3-Rkc5l98mRmEHEeB1Hbooljhkr1uRXDw/viewform?embedded=true"
+                width="800" height="600" frameborder="0" marginheight="20" marginwidth="20">Loading…</iframe>
+            <br><br><br>
+            Incoming/Prospective Student
+            <br><br>
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSfPAsubVKzP2blWFEFKFUlQ_uNXjQ9U-XunSVzUTk5K5s0ISg/viewform?embedded=true"
+                width="800" height="600" frameborder="0" marginheight="20" marginwidth="20">Loading…</iframe>
+            <br><br><br>
+            <b>
+                Training Documentation
+            </b>
+            <br><br>
+            This document is meant to explain to you, the user, all the information you will need to complete your
+            tasks. During the test session, you are to evaluate the prototype provided to you by your observer/guide on
+            our upcoming product, the McGill Course Tracker.
+            <br><br>
+            The McGill Course Tracker is a website meant to help current, incoming, and prospective students and
+            academic advisors with course selection and tracking degree progression. Anyone can create an account on the
+            website and use it for these purposes. The primary feature is a page where you can input courses that will
+            then calculate your credits, needed credits, and both completed and incomplete requirements. Multiple course
+            lists can be created and saved to your account to be used as reference.
+            <br><br><br>
+            <b>
+                Tasks
+            </b>
+            <br><br>
+            This document provides the set of tasks to be completed by the user over the user testing process, which
+            you, the observer, will be administering. They are to be conducted in the given order. If this procedure was
+            unable to be followed, you, the observer, should note down why.
+            <br><br>
+            Each task has their corresponding section in the Data Collection document. Please fill the document out
+            alongside the tasks.
+            <ol>
+                <li>
+                    Create an account
+                </li>
+                <li>
+                    Log out of account
+                </li>
+                <li>
+                    Login to an existing account
+                </li>
+                <li>
+                    Create course list
+                </li>
+                <li>
+                    Mark a course as completed
+                </li>
+                <li>
+                    Use the website to calculate the number of credits towards completion
+                </li>
+                <li>
+                    Use the website to check unfulfilled course requirements
+                </li>
+                <li>
+                    Save the instance of the course list they just created
+                </li>
+                <li>
+                    Open a saved course list
+                </li>
+                <li>
+                    Edit a saved course list
+                </li>
+            </ol>
+            <br>
+            <b>
+                Data Collection Document
+            </b>
+            <br><br>
+            This document contains the blank document that you, the observer, will be filling out during the user test
+            session. Add any detail you think is significant in its respective column. At the bottom of the document,
+            you will have the opportunity to comment on anything unusual that occurred, or anything else you deem
+            necessary.
+            <br><br>
+            <table>
+                <colgroup>
+                    <col style="width:5%">
+                    <col style="width:20%">
+                    <col style="width:10%">
+                    <col style="width:30%">
+                    <col style="width:5%">
+                    <col style="width:30%">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">Task #</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Description</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Start</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Result</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Time</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Additional Comments</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">1</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Create an account.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Landing page</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">2 min</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">2</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Log out of account.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Homepage</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">15 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">3</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Login to an existing account.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Landing page</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">1 min</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">4</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Input courses.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Homepage</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">5 mins</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">5</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Mark a course as completed.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Homepage</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">10 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">6</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Use the website to calculate the number of credits
+                                    towards completion.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">15 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">7</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Use the website to check unfulfilled course
+                                    requirements.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">15 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">8</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Save the instance of the course list they just
+                                    created.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">10 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">9</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Open a saved course list.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Landing page</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">30 s</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><span style="font-weight: 400;">10</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Edit a saved course list.</span></p>
+                        </td>
+                        <td>
+                            <p><span style="font-weight: 400;">Course list viewer</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <p><span style="font-weight: 400;">1 min</span></p>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>&nbsp;</p>
+            <br><br>
+            <b>
+                Post-Test Questionnaire
+            </b>
+            <br><br>
+            The following form is used to collect information on the user's experience and thoughts through the test
+            session. This will give us valuable feedback that better allows us to improve our model.
+            <br><br>
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLScTM4knFBLiBBiVA8To0-TIL7jYFCHs2fhq6e3jTCc6cpzzPg/viewform?embedded=true"
+                width="800" height="600" frameborder="0" marginheight="20" marginwidth="20">Loading…</iframe>
+            <br><br><br>
+            <b>
+                Test Script
+            </b>
+            <br><br>
+            This document provides the general script to be delivered by you, the observer, to the user over the testing
+            process. You do not need to follow this script exactly. Deviate as you deem necessary in order to progress
+            through the tasks.
+            <br><br><br>
+            SCRIPT BEGIN
+            <br><br><br>
+            Hello! Welcome to the user testing session for the McGill Course Tracker website, meant to help current,
+            prospective, and incoming students as well as advisors through course selection and determining degree
+            progression. I'll be observing and guiding you through a set of tasks we have set out. You should know that
+            you may withdraw consent for this study and exit at any time. If there is anything you're uncomfortable
+            with, please let me know, and we will try to accommodate you. Please note that you will be recorded.
+            <br><br>
+            First of all, please confirm that you've completed the pre-test questionnaire. You should have been given it
+            prior to today.
+            <br><br>
+            <i>[Wait for confirmation.]</i>
+            <ul>
+                <li>
+                    If completed: Excellent. Let's begin.
+                </li>
+                <li>
+                    If not completed: I have a copy of the questionnaire with me here. You can take the next 10 minutes
+                    or so to fill it out.
+                </li>
+            </ul>
+            <i>
+                [With the questionnaire confirmed to be complete, show the prototype.]
+            </i>
+            <br><br>
+            Today, youlll be evaluating one of these. This is a prototype user interface for the website. It is not
+            completely functional, and I will be playing the part of acting out the system's expected behaviour. Feel
+            free to ask questions if you're unclear on any of the tasks, but otherwise, you will go through each one
+            without help, unless you're truly stuck.
+            <br><br>
+            We encourage you to verbalize your thoughts during this session, which will give us better insight into the
+            user's experience.
+            <br><br>
+            Do you have any questions?
+            <br><br>
+            <i>
+                [Wait for response. If none, continue. If there are, answer if you think it's appropriate.]
+            </i>
+            <br><br>
+            Excellent. Let's begin.
+            <br><br>
+            There are 9 tasks planned for today. The first one is to create an account. Here's the homepage.
+            <br><br>
+            <i>
+                [User creates account.]
+            </i>
+            <br><br>
+            Your second task is to log out of the account you just created.
+            <br><br>
+            <i>
+                [User logs out of account.]
+            </i>
+            <br><br>
+            And third, now log back in.
+            <br><br>
+            <i>
+                [User logs back into account.]
+            </i>
+            <br><br>
+            Now, create a course list and input your courses.
+            <br><br>
+            <i>
+                [User creates course list.]
+            </i>
+            <br><br>
+            Fifth, now that the list is complete, use it to calculate your credits and credits to completion.
+            <br><br>
+            <i>
+                [User calculates credits.]
+            </i>
+            <br><br>
+            Now use the same list to get all your unfulfilled course requirements.
+            <br><br>
+            <i>
+                [User gets course requirements.]
+            </i>
+            <br><br>
+            Great. Now for task seven, save this course list to your account.
+            <br><br>
+            <i>
+                [User saves course list.]
+            </i>
+            <br><br>
+            For task eight, I want you to access the course list you just saved.
+            <br><br>
+            <i>
+                [User opens saved task list.]
+            </i>
+            <br><br>
+            And now, lastly, for task nine, edit this course list and save the changes.
+            <br><br>
+            <i>
+                [User edits the course list and saves.]
+            </i>
+            <br><br>
+            Great! You're done. I'll stop the recording now. Do you need a break?
+            <ul>
+                <li>
+                    If yes: <i>[Give the user 5 minutes.] </i>
+                </li>
+                <li>
+                    If not: <i>[Continue on to post-test questionnaire.] </i>
+                </li>
+            </ul>
+            I'd now like you to fill out this post-test questionnaire. Take as much time as you need, and ask me if
+            you're confused about anything here.
+            <br><br>
+            <i>
+                [User completes post-test questionnaire.]
+            </i>
+            <br><br>
+            And that's it! You're done for today. Thank you so much for your time. We'll send you the details of the
+            website once everything has been completed. Have a good rest of your day!
+            <br><br><br>
+            END SCRIPT
+            <br><br>
+        </div>
+        <div class="header2Text">
+            Contributions Summary
+        </div>
+        <div class="text">
+            Annabelle Dion
+            <ul>
+                <li>
+                    Usability goals
+                </li>
+            </ul>
+            Cecile Dai
+            <ul>
+                <li>
+                    Webmaster
+                </li>
+                <li>
+                    Design evolution
+                </li>
+            </ul>
+            Victoria Iannotti
+            <ul>
+                <li>
+                    Figma prototype
+                </li>
+            </ul>
+            Challenge faced during the deliverable: No challenge faced.
+            <br><br>
+            Signatures: Cecile, Annabelle, Victoria
+        </div>
+    </div>
+</body>
+
+</html>
